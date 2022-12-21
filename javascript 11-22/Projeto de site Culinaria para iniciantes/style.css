@@ -1,0 +1,132 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #66E389;
+}
+
+header img {
+    height: 100px;
+    display: flex;
+}
+
+body h1, h2, p{
+    font-family: helvetica; /*, Georgia, 'Times New Roman', Times, serif;*/
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FF9A83;
+}
+
+.corpo {
+    background-color: #F2EAE4;
+    max-width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    min-width: 200px;
+    height: 1100px;
+    background-color: #FF9A83;
+    border: #D9626B dashed 3px;
+}
+.menu ul, h3, a:link, li{
+    font-size: 20px;
+    font-family: helvetica;
+    text-decoration: none;
+    color: #000000;
+}
+
+ 
+.video {
+
+    background-color: #F2EAE4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 560px;
+    height: 315px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    margin-right: 200px;
+}
+
+.localidade iframe{
+    width: 500px;
+    height: 400px;
+}
+
+.baixo{
+    background-color:#F2EAE4;
+    max-width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.localidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+.localidade p{
+    margin: 20px;
+    font-size: 20px;
+   
+}
+
+
+table{
+ background: #FF9A83;
+ /* border-color: #000000;
+ border-style:solid ; */
+ border: #000000 solid 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 50px;
+}
+
+ tr{/** Faz o estilo para as linhas. **/
+    text-align: center; /** Centraliza o conteúdo. **/
+    height: 50px;
+ }
+ th{/** Faz o estilo para as células do cabeçalho. **/
+    background: #D9626B; /** Muda para um fundo cinza. **/
+    color: white ; /** Troca a cor da fonte para branco. **/
+    font-family: helvetica;
+    
+
+ }
+
+ td{
+    text-align: center; /**Centraliza o texto. **/
+    width: 200px;
+    font-family: helvetica;
+ }
+
+footer{
+    background-color:#66E389;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    max-height: 60px;
+
+}
+footer .text{
+    margin: 10px;
+}
